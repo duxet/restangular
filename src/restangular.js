@@ -1348,3 +1348,11 @@ restangular.provider('Restangular', function() {
 });
 
 })();
+
+/* jshint ignore:start */
+/* commonjs package manager support (eg componentjs, browserify) */
+if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.exports === exports){
+ var _ = require('lodash');
+ module.exports = 'restangular';
+}
+/* jshint ignore:end */
