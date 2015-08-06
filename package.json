@@ -1,5 +1,5 @@
 {
-  "name": "restangular",
+  "name": "restangular-browserify",
   "description": "Restful Resources service for AngularJS apps",
   "version": "1.5.1",
   "filename": "restangular.min.js",
